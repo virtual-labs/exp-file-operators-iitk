@@ -1,2 +1,2 @@
 ### Aim
- To understand file operations in python programming.
+ In this experiment you will understand file operations.
