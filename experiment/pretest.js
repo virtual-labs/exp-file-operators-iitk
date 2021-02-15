@@ -19,17 +19,17 @@
                  // ...add an HTML radio button
                  answers.push(
                      `<label>
-           <input type="radio" name="question${questionNumber}" value="${letter}">
-           ${letter} :
-           ${currentQuestion.answers[letter]}
-         </label>`
+              <input type="radio" name="question${questionNumber}" value="${letter}">
+              ${letter} :
+              ${currentQuestion.answers[letter]}
+            </label>`
                  );
              }
 
              // add this question and its answers to the output
              output.push(
                  `<div class="question"> ${currentQuestion.question} </div>
-       <div class="answers"> ${answers.join("")} </div>`
+          <div class="answers"> ${answers.join("")} </div>`
              );
          });
 
@@ -89,25 +89,55 @@
 
 
      const myQuestions = [{
-            question: "1.This is a sample question:", ///// Write the question inside double quotes
-            answers: {
-                a: "This is a sample answer A", ///// Write the option 1 inside double quotes
-                b: "This is a sample answer B", ///// Write the option 2 inside double quotes
-            },
-            correctAnswer: "a" ///// Write the correct option inside double quotes
-        },
-
-    {
-      question: "<img src='images/8.PNG'><br>Identify the location of Secondary electron detector",  ///// Write the question inside double quotes
-      answers: {
-        a: "<img src='images/1b.png'>",                  ///// Write the option 1 inside double quotes
-        b: "<img src='images/1a.png'>",                  ///// Write the option 2 inside double quotes
-        c: "<img src='images/1c.PNG'>",      },
-      correctAnswer: "c"                ///// Write the correct option inside double quotes
-    },
-
-
-
+             question: "Which of the following command is used to open a file 'C: \python.txt' inappend - mode ? ",
+             answers: {
+                 a: "F=open('c:/python.txt','a')",
+                 b: "F=open('c:\\python.txt','rw')",
+                 c: "F=open('c:\python.txt','a')",
+                 d: "F=open('c:\\python.txt','r+')"
+             },
+             correctAnswer: "a"
+         },
+         {
+             question: "What does the readlines() method returns?",
+             answers: {
+                 a: "str",
+                 b: "a list of integers",
+                 c: "a list of lines",
+                 d: "a list of single characters a list of integers"
+             },
+             correctAnswer: "c"
+         },
+         {
+             question: "Which one of the following is not attributes of file?",
+             answers: {
+                 a: "softspace",
+                 b: "rename",
+                 c: "mode",
+                 d: "closed"
+             },
+             correctAnswer: "d"
+         },
+         {
+             question: "Which is/are the basic I/O connections in file?",
+             answers: {
+                 a: "Standard Input",
+                 b: "Standard Output",
+                 c: "Standard Error",
+                 d: "All of the above"
+             },
+             correctAnswer: "d"
+         },
+         {
+             question: "Which function is used to read all the characters?",
+             answers: {
+                 a: "Readchar()",
+                 b: "Readcharacters()",
+                 c: "Readall()",
+                 d: "Read()"
+             },
+             correctAnswer: "d"
+         },
      ];
 
 

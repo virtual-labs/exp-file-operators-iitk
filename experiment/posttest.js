@@ -19,17 +19,17 @@
                 // ...add an HTML radio button
                 answers.push(
                     `<label>
-          <input type="radio" name="question${questionNumber}" value="${letter}">
-          ${letter} :
-          ${currentQuestion.answers[letter]}
-        </label>`
+            <input type="radio" name="question${questionNumber}" value="${letter}">
+            ${letter} :
+            ${currentQuestion.answers[letter]}
+          </label>`
                 );
             }
 
             // add this question and its answers to the output
             output.push(
                 `<div class="question"> ${currentQuestion.question} </div>
-      <div class="answers"> ${answers.join("")} </div>`
+        <div class="answers"> ${answers.join("")} </div>`
             );
         });
 
@@ -89,26 +89,51 @@
 
 
     const myQuestions = [{
-            question: "1.This is a sample question:", ///// Write the question inside double quotes
-            answers: {
-                a: "This is a sample answer A", ///// Write the option 1 inside double quotes
-                b: "This is a sample answer B", ///// Write the option 2 inside double quotes
-            },
-            correctAnswer: "a" ///// Write the correct option inside double quotes
+        question: "What is the output of this program?     import sys        sys.stdout.write('Hello')        sys.stdout.write('Python')",
+        answers: {
+            a: "Error",
+            b: "Hello",
+            c: "Python",
+            d: "Hello Python"
         },
-
-    {
-      question: "<img src='images/8.PNG'><br>Identify the location of Secondary electron detector",  ///// Write the question inside double quotes
-      answers: {
-        a: "<img src='images/1b.png'>",                  ///// Write the option 1 inside double quotes
-        b: "<img src='images/1a.png'>",                  ///// Write the option 2 inside double quotes
-        c: "<img src='images/1c.PNG'>",      },
-      correctAnswer: "c"                ///// Write the correct option inside double quotes
-    },
-
-
-        
-    ];
+        correctAnswer: "d"
+    }, {
+        question: "What is the output of following code?  fo = open('temp.txt', 'r')     print(fo.closed)       fo.close()      print(fo.closed)",
+        answers: {
+            a: "True True",
+            b: "True False",
+            c: "False True",
+            d: "False False"
+        },
+        correctAnswer: "c"
+    }, {
+        question: "What is the output of following code?   number = 5.0     try:  r = 10/number   print(r)   except:   print('Error Occurred')",
+        answers: {
+            a: "Error occurred",
+            b: "2.0",
+            c: "2.0 Error occurred",
+            d: "None object"
+        },
+        correctAnswer: "b"
+    }, {
+        question: "Which of the following functions can be used to check if a file 'Logo' exists?",
+        answers: {
+            a: "os.path.isFile(logo)",
+            b: "os.path.exists(logo)",
+            c: "os.path.isfile(logo)",
+            d: "os.isExist(logo)"
+        },
+        correctAnswer: "c"
+    }, {
+        question: "Which of the following functions displays a file dialog for saving  a file?",
+        answers: {
+            a: "tmp_file = asksaveasfilename()",
+            b: "tmp_file = openfilename()",
+            c: "tmp_file = askopenfilename()",
+            d: "tmp_file = saveasfilename()"
+        },
+        correctAnswer: "a"
+    }, ];
 
 
 
