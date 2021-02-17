@@ -1,4 +1,3 @@
-### Theory
 File operations in any programming is very essential. Files are used to save and transfer data. They can be of any form, a text file or a media file. They all serve the same purpose.
 Here you will learn about the various methods of file operations in Python programming language. <br>
 Python provides us with various file operations. A file can be created, edited, read and even copied.<br>

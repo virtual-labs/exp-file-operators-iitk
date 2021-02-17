@@ -1,4 +1,3 @@
-### Procedure
 1. Read the simulator details.
 2. Read the problem statement.
 3. Press NEXT to proceed.
