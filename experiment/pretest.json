@@ -1,16 +1,46 @@
 [{
-	"question": "1.This is a sample question:",
+	"question": "Which of the following command is used to open a file 'C: python.txt' inappend - mode ? ",
 	"answers": {
-		"a": "This is a sample answer A",
-		"b": "This is a sample answer B"
+		"a": "F=open('c:/python.txt','a')",
+		"b": "F=open('c:\\python.txt','rw')",
+		"c": "F=open('c:python.txt','a')",
+		"d": "F=open('c:\\python.txt','r+')"
 	},
 	"correctAnswer": "a"
 }, {
-	"question": "<img src='images/8.PNG'><br>Identify the location of Secondary electron detector",
+	"question": "What does the readlines() method returns?",
 	"answers": {
-		"a": "<img src='images/1b.png'>",
-		"b": "<img src='images/1a.png'>",
-		"c": "<img src='images/1c.PNG'>"
+		"a": "str",
+		"b": "a list of integers",
+		"c": "a list of lines",
+		"d": "a list of single characters a list of integers"
 	},
 	"correctAnswer": "c"
+}, {
+	"question": "Which one of the following is not attributes of file?",
+	"answers": {
+		"a": "softspace",
+		"b": "rename",
+		"c": "mode",
+		"d": "closed"
+	},
+	"correctAnswer": "d"
+}, {
+	"question": "Which is/are the basic I/O connections in file?",
+	"answers": {
+		"a": "Standard Input",
+		"b": "Standard Output",
+		"c": "Standard Error",
+		"d": "All of the above"
+	},
+	"correctAnswer": "d"
+}, {
+	"question": "Which function is used to read all the characters?",
+	"answers": {
+		"a": "Readchar()",
+		"b": "Readcharacters()",
+		"c": "Readall()",
+		"d": "Read()"
+	},
+	"correctAnswer": "d"
 }]
