@@ -21,10 +21,7 @@ Write | w | open('file_name', 'w')
 Append | a | open('file_name', 'a')
 
 Example :<br>
-a = open('file.txt', 'w')<br>
-a.write("Hello!, My name is Jake.")<br>
-print(a.read())<br>
-a.close()<br>
+<img src="images/img1.PNG"><br>
 Output : Hello!, My name is Jake.<br>
 
 The above example is of creating a file and printing it.
