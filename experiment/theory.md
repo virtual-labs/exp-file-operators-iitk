@@ -26,4 +26,3 @@ Example :<br><br>
 Output : Hello!, My name is Jake.<br>
 
 The above example is of creating a file and printing it.
-
