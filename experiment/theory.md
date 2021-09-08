@@ -15,20 +15,14 @@ object.close()<br>
 While creating or opening a file, we need to enter the mode that we want it to open in. Some of the modes are :
 
 Name of mode	| Keywords | Syntax
-:--|:--|:--|:-:
+:--|:--|:--|
 Read | r | open('file_name', 'r')
 Write | w | open('file_name', 'w')
 Append | a | open('file_name', 'a')
 
 Example :<br><br>
-
 <img src="images/img1.PNG"><br>
 
 Output : Hello!, My name is Jake.<br>
 
 The above example is of creating a file and printing it.
-
-Output : Hello!, My name is Jake.<br>
-
-The above example is of creating a file and printing it.
-
