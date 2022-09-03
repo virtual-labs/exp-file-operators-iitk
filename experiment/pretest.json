@@ -1,5 +1,5 @@
 [{
-	"question": "Which of the following command is used to open a file 'C: python.txt' inappend - mode ? ",
+	"question": "Which of the following command is used to open a file 'C: python.txt' in append - mode ? ",
 	"answers": {
 		"a": "F=open('c:/python.txt','a')",
 		"b": "F=open('c:\\python.txt','rw')",
