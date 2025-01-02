@@ -24,7 +24,7 @@
 		"c": "mode",
 		"d": "closed"
 	},
-	"correctAnswer": "d"
+	"correctAnswer": "b"
 }, {
 	"question": "Which is/are the basic I/O connections in file?",
 	"answers": {
