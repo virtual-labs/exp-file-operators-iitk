@@ -1,0 +1,46 @@
+[{
+	"question": "Which of the following command is used to open a file 'C: python.txt' in append - mode ? ",
+	"answers": {
+		"a": "F=open('c:/python.txt','a')",
+		"b": "F=open('c:\\python.txt','rw')",
+		"c": "F=open('c:python.txt','a')",
+		"d": "F=open('c:\\python.txt','r+')"
+	},
+	"correctAnswer": "a"
+}, {
+	"question": "What does the readlines() method returns?",
+	"answers": {
+		"a": "str",
+		"b": "a list of integers",
+		"c": "a list of lines",
+		"d": "a list of single characters a list of integers"
+	},
+	"correctAnswer": "c"
+}, {
+	"question": "Which one of the following is not attributes of file?",
+	"answers": {
+		"a": "softspace",
+		"b": "rename",
+		"c": "mode",
+		"d": "closed"
+	},
+	"correctAnswer": "b"
+}, {
+	"question": "Which is/are the basic I/O connections in file?",
+	"answers": {
+		"a": "Standard Input",
+		"b": "Standard Output",
+		"c": "Standard Error",
+		"d": "All of the above"
+	},
+	"correctAnswer": "d"
+}, {
+	"question": "Which function is used to read all the characters?",
+	"answers": {
+		"a": "Readchar()",
+		"b": "Readcharacters()",
+		"c": "Readall()",
+		"d": "Read()"
+	},
+	"correctAnswer": "d"
+}]
